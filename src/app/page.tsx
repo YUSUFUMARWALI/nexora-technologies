@@ -4,8 +4,6 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import ProductsShowcase from "@/components/ProductsShowcase";
 import FounderPreview from "@/components/FounderPreview";
-import ResearchPreview from "@/components/ResearchPreview";
-import Education from "@/components/Education";
 
 export default function Home() {
   return (
@@ -16,8 +14,6 @@ export default function Home() {
       <Services />
       <ProductsShowcase />
       <FounderPreview />
-      <ResearchPreview />
-      <Education />
     </main>
   );
 }
