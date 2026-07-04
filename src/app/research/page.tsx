@@ -6,6 +6,7 @@ const publication = {
     "Comparative Analysis on Credit Card Fraud Detection Using Machine Learning Algorithms",
   journal: "IRE Journals",
   role: "Co-author",
+  authors: ["Yusuf Umar Wali", "Ahmad Haruna", "Ahmad Umar Barmo"],
   link: "https://www.irejournals.com/formatedpaper/1705531.pdf",
   topics: ["Machine Learning", "Credit Card Fraud", "FinTech", "AI Security"],
 };
@@ -65,6 +66,13 @@ export default function ResearchPage() {
               {publication.title}
             </h2>
 
+            <div className="mt-6">
+              <p className="text-sm text-white/50">Authors</p>
+              <p className="mt-2 font-semibold text-white/85">
+                {publication.authors.join(" • ")}
+              </p>
+            </div>
+
             <p className="mt-6 leading-8 text-white/70">
               This publication examines machine learning approaches for detecting
               fraudulent credit card transactions, focusing on how intelligent
@@ -105,3 +113,4 @@ export default function ResearchPage() {
     </main>
   );
 }
+
