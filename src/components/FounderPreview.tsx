@@ -65,7 +65,7 @@ export default function FounderPreview() {
               </div>
 
               <Link
-                href="#founder"
+                href="/founder"
                 className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#F0B33D] px-5 py-3 font-bold text-[#050914] transition hover:bg-white"
               >
                 Meet the Founder
@@ -78,4 +78,5 @@ export default function FounderPreview() {
     </section>
   );
 }
+
 
