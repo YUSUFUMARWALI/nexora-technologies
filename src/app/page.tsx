@@ -1,9 +1,10 @@
 ﻿import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Education from "@/components/Education";
 import Services from "@/components/Services";
 import ProductsShowcase from "@/components/ProductsShowcase";
+import FounderPreview from "@/components/FounderPreview";
+import Education from "@/components/Education";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Services />
       <ProductsShowcase />
+      <FounderPreview />
       <Education />
     </main>
   );
