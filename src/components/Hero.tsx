@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative mx-auto hidden w-full max-w-lg lg:block">
+        <div className="relative mx-auto w-full max-w-sm lg:max-w-lg">
           <div className="hero-depth-card relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.05] p-7 shadow-2xl backdrop-blur-xl">
             <div className="absolute inset-0 bg-gradient-to-br from-[#F0B33D]/10 via-transparent to-[#0B4EA2]/20" />
 
@@ -63,7 +63,7 @@ export default function Hero() {
                 />
               </div>
 
-              <div className="mt-6 grid grid-cols-2 gap-4">
+              <div className="mt-4 grid grid-cols-2 gap-3 lg:mt-6 lg:gap-4">
                 <div className="floating-mini-card rounded-2xl border border-white/10 bg-black/30 p-5">
                   <Layers3 className="h-7 w-7 text-[#F0B33D]" />
                   <p className="mt-4 text-2xl font-black">6+</p>
@@ -83,3 +83,4 @@ export default function Hero() {
     </section>
   );
 }
+
