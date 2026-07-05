@@ -54,16 +54,28 @@ export const projects = [
 ];
 
 export const certifications = [
-  "Graphic Design",
-  "Android Development",
-  "Machine Learning A-Z",
+  "Graphic Design Masterclass",
+  "AI & Machine Learning",
   "AI A-Z",
   "Generative AI Fundamentals",
   "Prompt Engineering",
-  "Reinforcement Learning",
   "Dart & Flutter",
   "Machine Learning using Python",
+  "Amazon KDP Self-Publishing & Book Marketing",
+  "Android Development",
+  "Reinforcement Learning",
 ];
+
+export const certificateLinks: Record<string, string> = {
+  "Graphic Design Masterclass": "/certificates/Graphic Ddesign Master-Class certificate.pdf",
+  "AI & Machine Learning": "/certificates/AI & ML Certificate.pdf",
+  "AI A-Z": "/certificates/AI AZ Certificate.pdf",
+  "Generative AI Fundamentals": "/certificates/generative AI Fundamentals certificate.pdf",
+  "Prompt Engineering": "/certificates/Prompt engineering certificate.pdf",
+  "Dart & Flutter": "/certificates/flutter Certificate.pdf",
+  "Machine Learning using Python": "/certificates/ML with Python Certificate.pdf",
+  "Amazon KDP Self-Publishing & Book Marketing": "/certificates/self-publishing book marketing on amazon kdp.pdf",
+};
 
 export const education = [
   "B.Sc. Information Technology — Current",
@@ -71,10 +83,3 @@ export const education = [
   "Janyau Secondary School — 2011–2013",
   "Janyau Model Primary School — 2004–2010",
 ];
-export const certificateLinks: Record<string, string> = {
-  "AI A-Z": "/certificates/AI AZ Certificate.pdf",
-  "Machine Learning A-Z": "/certificates/AI & ML Certificate.pdf",
-  "Dart & Flutter": "/certificates/flutter Certificate.pdf",
-  "Graphic Design": "/certificates/Graphic Ddesign Master-Class certificate.pdf",
-  "Machine Learning using Python": "/certificates/ML with Python Certificate.pdf",
-};
