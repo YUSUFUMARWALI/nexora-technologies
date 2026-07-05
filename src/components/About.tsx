@@ -1,43 +1,50 @@
-﻿export default function About() {
+﻿import { Compass, Target } from "lucide-react";
+
+export default function About() {
   return (
-    <section id="about" className="px-6 py-16 text-white md:px-16 lg:px-24">
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-3">
-        <div className="lg:col-span-2 rounded-3xl border border-white/10 bg-white/[0.04] p-8">
-          <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#F0B33D]">
-            About
-          </p>
+    <section id="about" className="px-6 py-12 text-white md:px-16 lg:px-24">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-6 lg:grid-cols-[1.35fr_0.65fr]">
+          <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 md:p-10">
+            <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#F0B33D]">
+              About Nexora
+            </p>
 
-          <h2 className="mt-4 text-4xl font-black">
-            Building useful technology with purpose.
-          </h2>
+            <h2 className="mt-4 max-w-3xl text-4xl font-black md:text-5xl">
+              Engineering useful technology with clarity, purpose and ambition.
+            </h2>
 
-          <p className="mt-6 leading-8 text-white/70">
-            I am Yusuf Umar Wali, a software developer, AI enthusiast and founder
-            of Nexora Technologies. My work focuses on building practical digital
-            products that solve real problems across web, mobile, automation,
-            artificial intelligence and business technology.
-          </p>
+            <p className="mt-6 max-w-4xl leading-8 text-white/65">
+              Nexora Technologies is a technology company focused on transforming
+              ideas and real-world challenges into modern digital products. We
+              build web platforms, mobile applications, intelligent systems and
+              automation solutions for organizations, businesses and communities.
+            </p>
+          </div>
 
-          <p className="mt-5 leading-8 text-white/70">
-            My goal is to build products that are clean, scalable and valuable,
-            especially for organizations, startups, communities and institutions
-            that need reliable technology to grow.
-          </p>
-        </div>
+          <div className="grid gap-6">
+            <div className="rounded-[2rem] border border-[#F0B33D]/25 bg-[#F0B33D]/10 p-7">
+              <Target className="h-8 w-8 text-[#F0B33D]" />
+              <p className="mt-5 text-sm font-bold uppercase tracking-[0.25em] text-[#F0B33D]">
+                Mission
+              </p>
+              <p className="mt-3 leading-7 text-white/70">
+                Turn meaningful ideas into reliable, scalable and accessible
+                digital products.
+              </p>
+            </div>
 
-        <div className="rounded-3xl border border-[#F0B33D]/30 bg-[#F0B33D]/10 p-8">
-          <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#F0B33D]">
-            Mission
-          </p>
-
-          <h3 className="mt-4 text-2xl font-black">
-            Turning ideas into digital products.
-          </h3>
-
-          <p className="mt-5 leading-8 text-white/70">
-            Through Nexora Technologies, I aim to help individuals, businesses
-            and organizations transform ideas into professional digital systems.
-          </p>
+            <div className="rounded-[2rem] border border-[#6BA7FF]/20 bg-[#0B4EA2]/15 p-7">
+              <Compass className="h-8 w-8 text-[#6BA7FF]" />
+              <p className="mt-5 text-sm font-bold uppercase tracking-[0.25em] text-[#6BA7FF]">
+                Vision
+              </p>
+              <p className="mt-3 leading-7 text-white/70">
+                Grow into a technology company recognized for practical innovation
+                and products that create measurable impact.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
