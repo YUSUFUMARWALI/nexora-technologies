@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { ArrowLeft, BookOpen, GraduationCap, Mail, MessageCircle, ShieldCheck } from "lucide-react";
 import { FaGithub, FaInstagram } from "react-icons/fa6";
-import { certifications, education, profile } from "@/data/portfolio";
+import { certifications, education, profile, certificateLinks } from "@/data/portfolio";
 
 const publication = {
   title: "Comparative Analysis on Credit Card Fraud Detection Using Machine Learning Algorithms",
@@ -93,11 +93,33 @@ export default function FounderPage() {
             <h2 className="mt-5 text-3xl font-black">Certifications</h2>
 
             <div className="mt-7 grid gap-3 sm:grid-cols-2">
-              {certifications.map((cert) => (
-                <div key={cert} className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/75">
-                  {cert}
-                </div>
-              ))}
+              {certifications.map((cert) => {
+                const link = certificateLinks[cert];
+
+                return link ? (
+                  <a
+                    key={cert}
+                    href={link}
+                    target="_blank"
+                    className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/75 transition hover:border-[#F0B33D]/60 hover:text-[#F0B33D]"
+                  >
+                    {cert}
+                    <span className="mt-2 block text-xs text-[#F0B33D]">
+                      View Certificate
+                    </span>
+                  </a>
+                ) : (
+                  <div
+                    key={cert}
+                    className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/75"
+                  >
+                    {cert}
+                    <span className="mt-2 block text-xs text-white/40">
+                      Certificate pending
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -131,4 +153,6 @@ export default function FounderPage() {
     </main>
   );
 }
+
+
 

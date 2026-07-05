@@ -71,3 +71,10 @@ export const education = [
   "Janyau Secondary School — 2011–2013",
   "Janyau Model Primary School — 2004–2010",
 ];
+export const certificateLinks: Record<string, string> = {
+  "AI A-Z": "/certificates/AI AZ Certificate.pdf",
+  "Machine Learning A-Z": "/certificates/AI & ML Certificate.pdf",
+  "Dart & Flutter": "/certificates/flutter Certificate.pdf",
+  "Graphic Design": "/certificates/Graphic Ddesign Master-Class certificate.pdf",
+  "Machine Learning using Python": "/certificates/ML with Python Certificate.pdf",
+};
