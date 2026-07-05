@@ -1,6 +1,6 @@
 ﻿import type { MetadataRoute } from "next";
 
-const baseUrl = "https://nexoratechng.com";
+const baseUrl = "https://nexora-technologies-mauve.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -15,3 +15,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 }
+

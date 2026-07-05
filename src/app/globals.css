@@ -48,3 +48,4 @@ body {
 .btn-ghost {
   @apply rounded-xl border border-white/20 px-5 py-3 font-bold text-white transition hover:border-[#F0B33D];
 }
+

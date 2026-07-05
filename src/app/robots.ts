@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nexoratechng.com/sitemap.xml",
+    sitemap: "https://nexora-technologies-mauve.vercel.app/sitemap.xml",
   };
 }
+

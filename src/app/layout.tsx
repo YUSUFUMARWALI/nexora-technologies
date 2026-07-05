@@ -2,7 +2,7 @@
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nexoratechng.com"),
+  metadataBase: new URL("https://nexora-technologies-mauve.vercel.app"),
   title: "Nexora Technologies | Building Technology That Creates Real-World Impact",
   description:
     "Nexora Technologies builds modern websites, mobile apps, AI solutions, automation systems and digital products for businesses, startups, NGOs and institutions.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Nexora Technologies",
     description:
       "Building technology that creates real-world impact through web, mobile, AI and automation.",
-    url: "https://nexoratechng.com",
+    url: "https://nexora-technologies-mauve.vercel.app",
     siteName: "Nexora Technologies",
     images: [
       {
@@ -54,3 +54,4 @@ export default function RootLayout({
     </html>
   );
 }
+
